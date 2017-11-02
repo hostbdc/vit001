@@ -18,7 +18,7 @@ padding:8px;
 .orange-header
 {
 max-width:100%;
-background:#f75d34;
+background:#036b05;
 color:#fff;
 padding-top:10px;
 padding-bottom:15px;
@@ -36,7 +36,7 @@ margin:auto;
 max-width:70%;
 }
 .navigation-bar{
-background:#f75d34;
+background:#036b05;
 color:#fff;
 border:none;
 }
@@ -1053,7 +1053,7 @@ white-space: inherit;
 
 .page__background.page--getsettings__background
 {
-background:#101316;
+background:#FFFFFF;
 }
 
 .page__background.page--page-slidingmenu__background{
