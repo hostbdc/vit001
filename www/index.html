@@ -141,7 +141,7 @@
       <span class="trn" data-trn-key="my_points">My Points</span>
     </ons-list-item>    
 
-    <ons-list-item onclick="menu.cidades('cidades.html', {closeMenu: true})" class="bottom-menu-item">
+    <ons-list-item onclick="menu.setMainPage('cidades.html', {closeMenu: true})" class="bottom-menu-item">
       <ons-icon icon="ion-android-menu"></ons-icon> 
       <span class="trn" data-trn-key="cidades">Lista de Cidades</span>
     </ons-list-item>
@@ -217,15 +217,15 @@
 	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>
- 
+       </div>
 
-	<button class="button green-btn button--large" onclick="menu.cidades('cidades.html);">
+	<button class="button green-btn button--large" onclick="menu.setMainPage('cidades.html);">
 	      <span class="trn" data-trn-key="cidades">Cidades cadastradas</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>   
 	   	  
-    </div>      
-
+       </div>      
+ 
     <div class="wrapper no-connection">
       <ons-icon icon="ion-wifi" id="ion-wifi"></ons-icon>
       <p class="trn" data-trn-key="connection_lost" >CONNECTION LOST</p>      
