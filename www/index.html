@@ -140,11 +140,6 @@
       <ons-icon icon="ion-connection-bars"></ons-icon> 
       <span class="trn" data-trn-key="my_points">My Points</span>
     </ons-list-item>    
-
-    <ons-list-item onclick="menu.setMainPage('cidades.html', {closeMenu: true})" class="bottom-menu-item">
-      <ons-icon icon="ion-android-menu"></ons-icon> 
-      <span class="trn" data-trn-key="cidades">Lista de Cidades</span>
-    </ons-list-item>
     
     <ons-list-item onclick="menu.setMainPage('settings.html', {closeMenu: true})" class="bottom-menu-item">
       <ons-icon icon="ion-gear-a"></ons-icon> 
@@ -235,19 +230,17 @@
 	   </button>
        </div>
 
-	<button class="button green-btn button--large" onclick="menu.setMainPage('cidades.html', {closeMenu: true})" class="bottom-menu-item">
-	      <span class="trn" data-trn-key="Cidades">Cidades cadastradas</span>    	      
-	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
-	   </button>   
-	   	  
-       </div>      
+                   <p style="text-align: center">
+                   <ons-button>Cidades Cadastradas</ons-button>
+                   </p>
+      
  
     <div class="wrapper no-connection">
       <ons-icon icon="ion-wifi" id="ion-wifi"></ons-icon>
-      <p class="trn" data-trn-key="connection_lost" >CONNECTION LOST</p>      
+      <p class="trn" data-trn-key="connection_lost" >Erro Coneção</p>      
       <button class="button button--quiet green" onclick="refreshConnection();">
       <ons-icon icon="ion-android-refresh">
-         </ons-icon> <span class="trn" data-trn-key="tap_to_retry">Tap to retry</span>
+         </ons-icon> <span class="trn" data-trn-key="tap_to_retry">Tentar Novamente</span>
       </button>
     </div>   
         
