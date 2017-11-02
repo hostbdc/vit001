@@ -2,14 +2,14 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id        = "com.vittrineonline.delivery"
+    id        = "com.vittrineonline.delivery.ma"
     versionCode = "1"
     version   = "1.0">
     <name>DELIVERY VITTRINE</name>
     <description>
-        Delivery em Barra do Corda
+        Delivery em Marahão
     </description>
-    <author email="central2hostbdc.com.br" href="http://cordova.io">
+    <author email="central@vittrine.xyz" href="http://cordova.io">
         vanderlei oliveira
     </author>
             
@@ -54,7 +54,7 @@
     </gap:config-file>	
 			
 	<preference name="AutoHideSplashScreen" value="false" />  	
-    <preference name="SplashScreenDelay" value="10000" />    
+    <preference name="SplashScreenDelay" value="30000" />    
     <preference name="fullscreen" value="false" />
     <preference name="android-minSdkVersion" value="16" />     
 	
