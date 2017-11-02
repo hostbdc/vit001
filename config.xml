@@ -2,12 +2,12 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://phonegap.com/ns/1.0"
     xmlns:android = "http://schemas.android.com/apk/res/android"
-    id        = "com.vittrineonline.delivery.ma"
+    id        = "com.vittrineonline.delivery"
     versionCode = "1"
     version   = "1.0">
     <name>DELIVERY VITTRINE</name>
     <description>
-        Delivery em Marahão
+        Delivery em Marahao
     </description>
     <author email="central@vittrine.xyz" href="http://cordova.io">
         vanderlei oliveira
