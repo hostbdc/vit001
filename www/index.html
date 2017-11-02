@@ -141,9 +141,9 @@
       <span class="trn" data-trn-key="my_points">My Points</span>
     </ons-list-item>    
 
-    <ons-list-item onclick="menu.setMainPage('cidades.html', {closeMenu: true})" class="bottom-menu-item">
+    <ons-list-item onclick="menu.cidades('cidades.html', {closeMenu: true})" class="bottom-menu-item">
       <ons-icon icon="ion-android-menu"></ons-icon> 
-      <span class="trn" data-trn-key="">Lista de Cidades</span>
+      <span class="trn" data-trn-key="cidades">Lista de Cidades</span>
     </ons-list-item>
     
     <ons-list-item onclick="menu.setMainPage('settings.html', {closeMenu: true})" class="bottom-menu-item">
@@ -164,15 +164,25 @@
 <script type="text/ons-template" id="cidades.html"> 
 <ons-navigator title="Navigator" var="kNavigator">   
  <ons-page id="page-home" on-device-backbutton="exitKApp()" sliding-menu-ignore="true" modifier="mybg" >
-  <ons-progress-bar indeterminate></ons-progress-bar>
+ <ons-progress-bar indeterminate></ons-progress-bar>
   <ons-toolbar>
     <div class="center"></div>
    <div class="left">
      <ons-toolbar-button onclick="setHome();">
         <ons-icon icon="fa-chevron-left"></ons-icon>
-            
+     </ons-toolbar-button>        
+    </div> 
+  </ons-toolbar>
+  <p style="text-align: center">
+    <ons-button>Cidades Cadastradas</ons-button>
+  </p>
+  <ons-card>
+    <img src="http://delivery.vittrine.xyz/cidades/001.png" alt="Onsen UI" style="width: 100%">
     <ons-card>
     <img src="http://delivery.vittrine.xyz/cidades/001.png" alt="Onsen UI" style="width: 100%">
+    <ons-card>
+    <img src="http://delivery.vittrine.xyz/cidades/001.png" alt="Onsen UI" style="width: 100%">
+    <ons-card>
 
 </ons-page>
 </script>
@@ -207,10 +217,10 @@
 	      <span class="trn" data-trn-key="search_restaurant">Search Restaurant</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>
-    </div> 
+ 
 
-	<button class="button green-btn button--large" onclick="menu.setMainPage();">
-	      <span class="trn" data-trn-key="">Cidades cadastradas</span>    	      
+	<button class="button green-btn button--large" onclick="menu.cidades('cidades.html);">
+	      <span class="trn" data-trn-key="cidades">Cidades cadastradas</span>    	      
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>   
 	   	  
