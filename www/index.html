@@ -140,6 +140,11 @@
       <ons-icon icon="ion-connection-bars"></ons-icon> 
       <span class="trn" data-trn-key="my_points">My Points</span>
     </ons-list-item>    
+
+    <ons-list-item onclick="menu.setMainPage('cidades.html', {closeMenu: true})" class="bottom-menu-item">
+      <ons-icon icon="ion-android-menu"></ons-icon> 
+      <span class="trn" data-trn-key="">Lista de Cidades</span>
+    </ons-list-item>
     
     <ons-list-item onclick="menu.setMainPage('settings.html', {closeMenu: true})" class="bottom-menu-item">
       <ons-icon icon="ion-gear-a"></ons-icon> 
@@ -153,6 +158,30 @@
             
   </ons-list>
   </ons-page> 
+</script>
+
+
+<script type="text/ons-template" id="cidades.html">
+<ons-navigator title="Navigator" var="kNavigator">
+  <ons-page id="page-home" on-device-backbutton="exitKApp()" sliding-menu-ignore="true" modifier="mybg" >
+        
+    <ons-toolbar>
+      <div class="left">
+        <ons-toolbar-button ng-click="menu.toggleMenu()"><ons-icon icon="fa-bars"></ons-icon></ons-toolbar-button>        
+      </div> 
+    <ons-list-header>Cidades Atendidas no Maranhão</ons-list-header>
+    
+    <ons-list-item>
+      <div class="left">
+        <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
+      </div>
+      <div class="center">
+        <span class="list-item__title">Barra do Corda-MA</span><span class="list-item__subtitle">Ativado</span>
+      </div>
+    </ons-list-item>   
+
+  </ons-page>
+</ons-navigator>  
 </script>
 
 <script type="text/ons-template" id="home.html">
