@@ -1981,8 +1981,7 @@ function displayRestaurantResults(data , target_id)
     	           htm+='<div>';
 	    	           htm+='<div class="rating-stars" data-score="'+val.ratings.ratings+'"></div>';
 	    	           htm+='<p class="restauran-title concat-text">'+val.restaurant_name+'</p>';
-                           <strong><span style="color:#ff0000;">
-	    	           htm+='<p class="concat-textx">'+val.cuisine+'</p>';</span></strong></p>
+	    	           htm+='<p class="concat-textx">'+val.cuisine+'</p>';
 	    	           
 	    	           if(!empty(val.distance)){
 	    	           	   htm+='<p>'+val.distance+'</p>';
