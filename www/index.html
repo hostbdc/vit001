@@ -144,7 +144,12 @@
     <ons-list-item onclick="menu.setMainPage('settings.html', {closeMenu: true})" class="bottom-menu-item">
       <ons-icon icon="ion-gear-a"></ons-icon> 
       <span class="trn" data-trn-key="settings">Settings</span>
-    </ons-list-item>    
+    </ons-list-item>   
+
+    <ons-list-item onclick="menu.setMainPage('cidades.html', {closeMenu: true})" class="bottom-menu-item">
+      <ons-icon icon="ion-gear-a"></ons-icon> 
+      <span class="trn" data-trn-key="">Cidades Cadastradas</span>
+    </ons-list-item>  
     
     <ons-list-item onclick="logout();" class="bottom-menu-item logout-menu">
       <ons-icon icon="ion-log-out"></ons-icon> 
@@ -208,6 +213,9 @@
       </div>    
 
     </ons-toolbar>
+
+    <ons-card>
+    <img src="http://delivery.vittrine.xyz/banner/home.gif" alt="Onsen UI" style="width: 100%">
        
     <div class="home-page wrapper center">       
        <h4 class="trn" data-trn-key="enter_your_location">Enter your location</h4>
@@ -229,12 +237,10 @@
 	      <div class="search-btn"><ons-icon icon="fa-chevron-right"></ons-icon></div>
 	   </button>
        </div>
+    <ons-card>
+    <img src="http://delivery.vittrine.xyz/banner/representante.gif" alt="Onsen UI" style="width: 100%">
 
-                   <p style="text-align: center">
-                   <ons-button id="page-cidades">Cidades Cadastradas</ons-button>
-                   </p>
-      
- 
+
     <div class="wrapper no-connection">
       <ons-icon icon="ion-wifi" id="ion-wifi"></ons-icon>
       <p class="trn" data-trn-key="connection_lost" >Erro Coneção</p>      
