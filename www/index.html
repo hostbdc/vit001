@@ -161,8 +161,9 @@
 </script>
 
 
-<script type="text/ons-template" id="cidades.html">    
-<ons-page id="page-home">
+<script type="text/ons-template" id="cidades.html"> 
+<ons-navigator title="Navigator" var="kNavigator">   
+ <ons-page id="page-home" on-device-backbutton="exitKApp()" sliding-menu-ignore="true" modifier="mybg" >
   <ons-progress-bar indeterminate></ons-progress-bar>
   <ons-toolbar>
     <div class="center"></div>
