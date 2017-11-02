@@ -161,27 +161,25 @@
 </script>
 
 
-<script type="text/ons-template" id="cidades.html">
-<ons-navigator title="Navigator" var="kNavigator">
-  <ons-page id="page-home" on-device-backbutton="exitKApp()" sliding-menu-ignore="true" modifier="mybg" >
-        
-    <ons-toolbar>
-      <div class="left">
-        <ons-toolbar-button ng-click="menu.toggleMenu()"><ons-icon icon="fa-bars"></ons-icon></ons-toolbar-button>        
-      </div> 
+<script type="text/ons-template" id="cidades.html">    
+<ons-page id="page-home">
+  <ons-progress-bar indeterminate></ons-progress-bar>
+  <ons-toolbar>
+    <div class="center"></div>
+   <div class="left">
+     <ons-toolbar-button onclick="setHome();">
+        <ons-icon icon="fa-chevron-left"></ons-icon>
+     </ons-toolbar-button>        
     <ons-list-header>Cidades Atendidas no Maranhão</ons-list-header>
-    
     <ons-list-item>
       <div class="left">
         <img class="list-item__thumbnail" src="http://placekitten.com/g/40/40">
       </div>
       <div class="center">
-        <span class="list-item__title">Barra do Corda-MA</span><span class="list-item__subtitle">Ativado</span>
+        <span class="list-item__title">Barra do corda-MA</span><span class="list-item__subtitle">1ª cidade atendida</span>
       </div>
-    </ons-list-item>   
-
-  </ons-page>
-</ons-navigator>  
+    </ons-list-item>
+</ons-page>
 </script>
 
 <script type="text/ons-template" id="home.html">
@@ -194,10 +192,6 @@
       </div>    
 
     </ons-toolbar>
-
-    <div class="home-header">
-         <img src="css/images/banner.png" alt="" title="">
-    </div> 
        
     <div class="home-page wrapper center">       
        <h4 class="trn" data-trn-key="enter_your_location">Enter your location</h4>
