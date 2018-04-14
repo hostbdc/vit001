@@ -1,8 +1,8 @@
 
 var krms_config ={		
-	'ApiUrl':"http://delivery.vittrine.xyz/mobileapp/api",				
+	'ApiUrl':"http://deliveryma.com.br/mobileapp/api",				
 	'DialogDefaultTitle':"Vittrine Delivery",	
 	'pushNotificationSenderid':"76287014202",	
 	'facebookAppId':"", 
-	'APIHasKey':"d6f56f1294b89151a8f01026d9aa3ac7"
+	'APIHasKey':"f927f9685c61597e124c89efd5afd5d8"
 };
